@@ -24,10 +24,22 @@ This GitHub repository contains all code, data, and documentation related to the
 
 ```bash
 ├── analysis/
+│   ├── code/
+│   ├── results/
+│   └── README.md
 ├── data/
+│   ├── datasets/
+│   └── README.md
 ├── report/
+│   └── figures/
+├── slides/
 └── README.md
 ```
+
+### Getting Started
+
+- Dependencies: The project requires Python with libraries such as NetworkX, NumPy, and Matplotlib. Install them by running command `pip install -r analysis/requirements.txt`
+- Running the Code: Rum command `python analysis/code/main.py`
 
 ### References
 
